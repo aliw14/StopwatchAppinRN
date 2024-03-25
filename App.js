@@ -41,9 +41,6 @@ const App = () => {
 	return (
 		<View style={styles.container}>
 
-			<Text style={styles.subHeader}>
-				Stop Watch In Native
-			</Text>
 			<Text style={styles.timeText}>{time}s</Text>
 			<View style={styles.buttonContainer}>
 				{running ? (
